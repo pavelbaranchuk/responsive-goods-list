@@ -1,0 +1,22 @@
+.product {
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    grid-column-gap: 20px;
+    grid-row-gap: 50px;
+    &__item {
+        border: solid 1px grey;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    &__image {
+        display: flex;
+        justify-content: space-between;
+        border: solid 1px grey;
+    }
+    &__content {
+        padding: 0.5rem;
+    }
+    &__buttons {
+    }
+}
